@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 h1{
-    font-family: 'Playfair Display', serif;
+    font-family: "Roboto", serif;
 }
 nav{
     background-color: black;
     height: 55px;
+    margin: 0px;
 }
 nav ul{
     list-style-type: none;
@@ -30,7 +31,7 @@ nav ul li{
 .bottom{
     background-color: black;
     color: white;
-    padding: 30px 0px;
+    padding: 10px 0px;
     width: 100%;
     position:fixed; 
     bottom:0;
@@ -40,16 +41,22 @@ nav ul li{
     height: 5px;
     background-color: #f1f1f1;
 }
-#playButton{
-    color: #f1f1f1;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
 .bottom .controls{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
+.container{
+    display: flex;
+    font-family: "Roboto", serif;
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    width: 75%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+}
+
 
