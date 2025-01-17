@@ -31,10 +31,11 @@ nav ul li{
 .bottom{
     background-color: black;
     color: white;
-    padding: 10px 0px;
+    padding: 2px 0px;
     width: 100%;
     position:fixed; 
     bottom:0;
+
 }
 #myProgressBar{
     width: 100%;
@@ -49,6 +50,7 @@ nav ul li{
 }
 .container{
     display: flex;
+    flex-direction: column;
     font-family: "Roboto", serif;
     min-height: 65vh;
     background-color: black;
@@ -57,9 +59,40 @@ nav ul li{
     margin: 23px auto;
     border-radius: 12px;
     padding: 34px;
-    background-image: url('bg.jpg');
+    background-image: url('EdSheeran.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
-
+.song{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.25);;
+    border-radius: 35px;
+    color: white;
+    width: 100%;
+    margin: 15px 0px;
+    height: 35px;
+}
+.song img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.song .songimage{
+    margin: 0px 10px;
+}
+.container .song #play{
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+.song #timestamp{
+    margin:0px 10px;
+}
+body{
+    background-color: #9CA3AF;
+}
