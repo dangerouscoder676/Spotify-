@@ -69,17 +69,20 @@
         <div class="songbanner"></div>
     </div>
     <div class="bottom">
-    <div class="controls">
-        <img src="playprevious.png" alt="Play previous" id="playPrevious">
-        <img src="playbutton.png" alt="Play button" id="playButton">
-        <img src="playnext.png" alt="Play next" id="playNext">
-    </div>
-    <div class="songinfo">
-        <img src="playing.gif" alt="Playing" width="42px">
-        <span id="songTitle">Shape of you</span>
-    </div>
+        <div class="controls">
+          <img src="playprevious.png" alt="Play previous" id="playPrevious">
+          <button id="masterPlay" class="masterplay">
+            <img src="playbutton.png" alt="Play button">
+          </button>
+          <img src="playnext.png" alt="Play next" id="playNext">
+        </div>
+        <div class="songinfo">
+          <img src="playing.gif" alt="Playing" width="42px">
+          <span id="songTitle">You need me I don't need you</span>
+        </div>
         <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
-    </div>
+      </div>
+      
     <script src="script.js"></script>
 </body>
 </html>

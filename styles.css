@@ -38,9 +38,11 @@ nav ul li{
 
 }
 #myProgressBar{
-    width: 100%;
+    width: 85%;
+    margin: 0px 100px;
     height: 5px;
     background-color: #f1f1f1;
+    cursor: pointer;
 }
 .bottom .controls{
     display: flex;
@@ -95,4 +97,12 @@ nav ul li{
 }
 body{
     background-color: #9CA3AF;
+}
+.bottom .songinfo{
+    margin: 0px 100px;
+}
+.bottom .controls .masterplay{
+    background-color: black;
+    cursor: pointer;
+
 }
